@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse ;
+    margin: auto;
+    text-align: left;
+    padding: 15px;
+    width: 50%;
+    font-family: sans-serif;
+}
+th {
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    color: white;
+}
+.tr1{
+    background-color: lightblue;
+    border: 1px solid skyblue;
+}
+.tr2{
+    background-color: white;
+    border: 1px solid skyblue;
+}
+.tr3{
+    background-color: lightblue;
+    border: 1px solid skyblue;
+}
+.tr4{
+    background-color: white;
+    border: 1px solid skyblue;
+}

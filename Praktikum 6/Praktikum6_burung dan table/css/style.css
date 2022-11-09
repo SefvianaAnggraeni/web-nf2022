@@ -1,0 +1,79 @@
+body {
+    background-color: khaki;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+#header{
+    background-color: burlywood;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+    padding: 20px;
+}
+#header blockquote{
+    background-color: yellow;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 10px;
+    width: 97%;
+    color: black;
+}
+#soekarno{
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    width: 50%;
+    color: black;
+}
+.link {
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+.gambar{
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    margin:0 auto;
+    text-align: center;
+}
+.isi {
+    margin: auto;
+    text-align: justify;
+}
+.koleksi{
+    background-color: khaki;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.koleksi img{
+    width: 20%;
+}
+.bBesar {
+    font-size: 50px;
+    color: blue;
+    display: inline;
+}
+.promo {
+    margin: auto;
+    width: 80%;
+    color: red;
+    font-size: 20px;
+}
+.promo h3 {
+    background-color: cornsilk;
+    color: slateblue;
+    padding: 10px;
+    text-align: center;
+}
+.promo ol li {
+    margin: auto;
+    text-align: center;
+    display: inline;
+}
+/* .h1{
+    margin: 0 auto;
+    text-align: center;
+} */
