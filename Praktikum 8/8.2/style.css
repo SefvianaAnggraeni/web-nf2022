@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+header {
+    background-color: lavender;
+}
+main {
+    display: flex;
+    flex-grow: 1;
+}
+main article {
+    background-color: lightpink;
+    flex: 4;
+}
+main aside {
+    background-color: lightskyblue;
+    flex: 1;
+    order: 1;
+}
+main nav {
+    background-color: lightsalmon;
+    flex: 1;
+}
+footer {
+    background-color: lavender;
+    padding: 1rem 0;
+}
