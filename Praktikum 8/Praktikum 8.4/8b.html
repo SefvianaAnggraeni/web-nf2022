@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 8.b</title>
+    <style>
+        body {
+            background-color: orangered;
+            margin: 0 auto;
+        }
+        header {
+            background-color: lavenderblush;
+            padding: 30px;
+            text-align: center;
+            flex: 1;
+        }
+        div {
+           min-height: 50vh;
+           display: flex; 
+        }
+        aside {
+            background-color: darksalmon;
+            text-align: center;
+            padding: 20px;
+            flex: 1;
+        }
+        article {
+            background-color: darkseagreen;
+            padding: 30px;
+            flex: 2;
+        }
+        article .img {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        article .img .img-item {
+            margin: 20px;
+        }
+        article .img .img-item img {
+            width: 200px;
+            height: 200px;
+        }
+        footer {
+            background-color: tan;
+            padding: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <div>
+        <aside>Aside</aside>
+        <article>
+            <h4 style="text-align: center;">Article</h4>
+            <div class="img">
+                <div class="img-item">
+                    <img src="assets/image/wolf.jpg" alt="">
+                </div>
+                <div class="img-item">
+                    <img src="assets/image/han.jpg" alt="">
+                </div>
+                <div class="img-item">
+                    <img src="assets/image/bbokari.jpg" alt="">
+                </div>
+            </div>
+        </article>
+    </div>
+    <footer>Footer</footer>
+</body>
+</html>
